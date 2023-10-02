@@ -1,0 +1,15 @@
+How 
+print (now.strftime("%Y-%m-%d %H:%M:%S")) <----- Works
+is a method call on the now object. The strftime method (short for "string format time") is used to format a datetime object as a string according to a specified format.
+"%Y-%m-%d %H:%M:%S" is a format string that defines how the date and time should be displayed. 
+Each part of the format string corresponds to a component of the date and time (year, month, day, hour, minute, and second) using format codes:
+%Y: Year with century as a decimal number (e.g., 2023)
+%m: Month as a zero-padded decimal number (e.g., 09 for September)
+%d: Day of the month as a zero-padded decimal number (e.g., 05)
+%H: Hour (24-hour clock) as a zero-padded decimal number (e.g., 14 for 2:00 PM)
+%M: Minute as a zero-padded decimal number (e.g., 03)
+%S: Second as a zero-padded decimal number (e.g., 09)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+How 
+strftime <------- Works
+strftime method (short for "string format time") is used to format a datetime object as a string according to a specified format.
