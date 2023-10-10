@@ -1,0 +1,11 @@
+Excercise 1  
+the -----> print("") <----- command is used to give output of what ever you wrote 
+  whatever you write in ---> ("") <--- will be the output print 
+
+\n <--- writing this will move the text to the next line
+\t <--- writing this will leave 8 blank spaces 
+
+for writing multiple line code we can either use 2 double qoutes 1 one each side of the text and use \n and \t to move lines or leave spaces
+or
+we can use 6 double quotes 3 on each side or 6 single quotes 3 on each side 
+        eg. print("""xyz""") or print('''xyz''')
