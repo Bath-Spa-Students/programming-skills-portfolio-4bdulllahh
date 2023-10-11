@@ -1,15 +1,29 @@
-How 
-print (now.strftime("%Y-%m-%d %H:%M:%S")) <----- Works
-is a method call on the now object. The strftime method (short for "string format time") is used to format a datetime object as a string according to a specified format.
-"%Y-%m-%d %H:%M:%S" is a format string that defines how the date and time should be displayed. 
-Each part of the format string corresponds to a component of the date and time (year, month, day, hour, minute, and second) using format codes:
-%Y: Year with century as a decimal number (e.g., 2023)
-%m: Month as a zero-padded decimal number (e.g., 09 for September)
-%d: Day of the month as a zero-padded decimal number (e.g., 05)
-%H: Hour (24-hour clock) as a zero-padded decimal number (e.g., 14 for 2:00 PM)
-%M: Minute as a zero-padded decimal number (e.g., 03)
-%S: Second as a zero-padded decimal number (e.g., 09)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-How 
-strftime <------- Works
-strftime method (short for "string format time") is used to format a datetime object as a string according to a specified format.
+Excercise 3 
+use 'import datetime' command to imprort date and time from Python's inbuilt Module 
+datetime is an inbuilt Module
+we write 
+ current_datetime = datetime.datetime.now()
+ we use 'current_datetime' to name the function/string 
+ the 'datetime.datetime.now() funtion is used to obtain current date and time down to the fraction of a second 
+
+you can also access specific component from year to microseconds 
+using
+  year = current_datetime.year
+  month = current_datetime.month
+  day = current_datetime.day
+  hour = current_datetime.hour
+  minute = current_datetime.minute
+  second = current_datetime.second
+  microsecond = current_datetime.microsecond
+
+formatted_datetime = current_datetime.strftime("%Y-%m-%d %H:%M:%S")
+ we use 'formatted_datetime' to name the funtion
+ we use 'strftime' to specify the format in which we cant to show the date and time 
+   eg. in the above command the format used is YYYY-MM-DD HH:MM:SS 
+  so the output will look something like 
+       2023-10-11 15:30:45
+   
+   we can write the command ----> print("Current Date and Time:" ,formatted_datetime)
+  so the output will look something like 
+       Current Date and Time: 2023-10-11 15:30:45
+
