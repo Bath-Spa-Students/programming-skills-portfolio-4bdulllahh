@@ -20,6 +20,7 @@ for the equation
      'radius ** 2'
 
 to further round the answer we can 
+
 Method 1 ---> using the round() funtion
 we can write 
 rounded_area = (area, 2) 
