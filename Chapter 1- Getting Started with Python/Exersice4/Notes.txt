@@ -1,0 +1,38 @@
+Excersice 4
+
+Method 1 ----> using the '+' operator
+first we create 3 strings
+string1 = "X "
+string2 = "Y "
+string3 = "Z "
+
+next we combine the strings using operators 
+here we use the plus operator '+'
+  eg. 
+     combined_string = string1 + string2 + string3
+
+then we print 
+  print(combined_string)
+
+Output will come out as 
+    X Y Z   
+
+Method 2 ----> Using string formatting 
+first we create 3 strings
+string1 = "X "
+string2 = "Y "
+string3 = "Z "
+
+ We create a string that includes placeholders {} where we want to insert the values of the individual strings.
+   In this case, we use a string with three placeholders.
+   Like 
+   combined_string = "{}{}{}".format(string1, string2, string3)
+    
+the '.format()' method is called on the string containing placeholders, and it replaces each placeholders with the values provided in the '.format()' function
+which are the string1, string2 and string3.
+
+Print the output
+ print(combined_string)
+Output will come out as 
+
+ ---> X Y Z 
