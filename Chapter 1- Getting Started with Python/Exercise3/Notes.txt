@@ -18,7 +18,7 @@ using
 
 formatted_datetime = current_datetime.strftime("%Y-%m-%d %H:%M:%S")
  we use 'formatted_datetime' to name the funtion
- we use 'strftime' to specify the format in which we cant to show the date and time 
+ we use 'strftime' to specify the format in which we want to show the date and time 
    eg. in the above command the format used is YYYY-MM-DD HH:MM:SS 
   so the output will look something like 
        2023-10-11 15:30:45
