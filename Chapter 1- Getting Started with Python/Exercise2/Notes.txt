@@ -1,0 +1,9 @@
+Excercise 2 
+First use ---> import <--- command to import sys module 
+'sys' is an inbuilt module in Python
+the 'sys' module gives access to diffrent system specific functions and parameter
+ print("Python version")
+  this prints the text 'Python version'
+print(sys.version)
+  this print out the version of python 
+  it does not give out 
