@@ -24,4 +24,7 @@ print(sys.version_info)
                 It can have values like "alpha," "beta," "candidate," or "final" to denote the development status of Python.
                 Most Python versions are marked as "final" for stable releases.  
  Serial : The serial component is an integer that represents the specific build for the Python version.
-         It's typically set to 0 for stable releases.                            
+         It's typically set to 0 for stable releases. 
+
+So the output will look something like this 
+sys.version_info(major=3, minor=8, micro=1, releaselevel='final', serial=0)     <-----------                               
