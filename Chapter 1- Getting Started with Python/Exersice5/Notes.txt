@@ -1,0 +1,37 @@
+Excercise 5
+first we use the 'import' command to import 'math' module
+this provides us the value of pi π as we need it in the calculation
+
+then we need an input from the user 
+so we use 
+  radius = float(input("Enter the radius of the circle: "))
+  we use float because it allows us to write a rational number eg. 1.4, 13.54, 255.34
+  we use the input commmand because it asks the user to interact and write a number down
+  which we will use as the value of the radius 
+
+for the equation
+ we write 
+  area = math.pi * (radius ** 2 )
+   the equation to find the area of a circle is π multiplied by radius raised to the power 2 
+   to add the value of π we write 'math.pi'
+   we mutiply it with 
+   radius raised to the power 2 
+   so we write use the '*' operator and write it as 
+     'radius ** 2'
+
+to further round the answer we can 
+Method 1 ---> using the round() funtion
+we can write 
+rounded_area = (area, 2) 
+this round the decimal points to 2 decimal places     
+then 
+print(rounded_area)
+
+Method 2 ---> using the string formatting 
+we can write 
+rounded_area = "{:.2f}".format(area)
+the '{:.2f} is a format string
+this code formats the 'area' as a string with 2 decimal places
+then stores it in 'rounded_area'
+then
+print(rounded_area)
