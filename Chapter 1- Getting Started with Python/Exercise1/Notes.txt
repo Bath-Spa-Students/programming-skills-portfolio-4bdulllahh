@@ -9,3 +9,23 @@ for writing multiple line code we can either use 2 double qoutes 1 one each side
 or
 we can use 6 double quotes 3 on each side or 6 single quotes 3 on each side 
         eg. print("""xyz""") or print('''xyz''')
+we can then write the text in diffrent lines and leave spaces 
+        and it will come out as written 
+        eg. 
+            print("""xyz abc                                     
+            Abdullah                     
+                    yes and no
+                    end)
+
+                  ~output~-
+
+                    xyz abc                                     
+            Abdullah                     
+                    yes and no
+                    end
+
+
+changing the double quotes to single quote will give the same output as well
+
+the use of \n and \t was shown in Practise1 in Excercise1
+the use of the quote method was used in Practise2 in Excercise1.
