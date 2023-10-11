@@ -2,8 +2,26 @@ Excercise 2
 First use ---> import <--- command to import sys module 
 'sys' is an inbuilt module in Python
 the 'sys' module gives access to diffrent system specific functions and parameter
- print("Python version")
-  this prints the text 'Python version'
+ print("Python version: ")
+  this prints the text 'Python version: ' so we can show that the current python version will be printed next
 print(sys.version)
   this print out the version of python 
-  it does not give out 
+  it does not give out the ouput as 'sys.version' 
+  because it is not written in double quotes
+it reads the the sys module and prints out the version instead 
+print("Version info: ")
+  this prints 'Version info. ' so we can show that the version info will be printed next
+print(sys.version_info)
+ this will give the output in a tuple containing 5 components 
+       Major, Minor, Micro Releaselevel and Serial 
+
+ Major : This component represents the major version number of Python. For example, in Python 3.7.2, the major version is 3.
+ Minor : The minor version number indicates smaller, backward-compatible changes in the language or standard library.
+          For example, in Python 3.7.2, the minor version is 7.      
+ Micro : The micro version, also known as the patch version, represents bug fixes and smaller changes.
+         In Python 3.7.2, the micro version is 2.  
+ Releaselevel : This component provides information about the release level. 
+                It can have values like "alpha," "beta," "candidate," or "final" to denote the development status of Python.
+                Most Python versions are marked as "final" for stable releases.  
+ Serial : The serial component is an integer that represents the specific build for the Python version.
+         It's typically set to 0 for stable releases.                            
