@@ -1,5 +1,5 @@
 # Assign a message to a variable
-message = "Hello, World!"
+message = "Hello, World"
 
 # Print the initial message
 print("Initial Message:", message)
