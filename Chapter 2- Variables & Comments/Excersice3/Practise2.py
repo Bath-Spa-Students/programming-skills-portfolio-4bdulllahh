@@ -1,4 +1,4 @@
-name = "\t\n   John Doe   \t\n"
+name = "\t\n   Imran Khan   \t\n"
 
 print(f"Original Name: '{name}'")
 
