@@ -19,11 +19,11 @@ print(z)
 # Check original list is still in original order
 print("Original list:", list)
 
-# Use reverse() to change the order of the list
+# Use reverse() to change the order of list
 list.reverse()
 print(list)
 
-# Use reverse() again to change the order back to the original
+# Use reverse() again to change the order back to original
 list.reverse()
 print(list)
 
