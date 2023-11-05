@@ -11,3 +11,5 @@ guests[0] = new_guest
 
 # Generate new invitations
 print(f"Dear", guests[0], " I would like to invite you to dinner.")
+
+
