@@ -16,3 +16,5 @@ glossary.update({"control flow": "decision to change flow of program"})
 glossary.update({"boolean": "True/false,1/0,Yes/No"})
 for x in glossary:
   print(x + ":" + glossary[x]) 
+
+  
