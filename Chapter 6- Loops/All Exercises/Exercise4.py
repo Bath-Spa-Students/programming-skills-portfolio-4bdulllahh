@@ -6,7 +6,7 @@ finished_sandwiches = []
 
 # Loop through the sandwich orders
 while sandwich_orders:
-    current_sandwich = sandwich_orders.pop(0) #pop(0) removes the item from the list 
+    current_sandwich = sandwich_orders.pop(0) #pop(0) removes the item from the list and moves or assigns it to 'current_sandwich'
     print(f"I made your {current_sandwich}.")
     finished_sandwiches.append(current_sandwich)
 
