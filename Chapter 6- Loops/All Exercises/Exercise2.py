@@ -6,7 +6,7 @@ while True:
     if age.lower() == 'leave':
         print("Thank you for using the ticket service. See yaaa!")
         break
-
+#converting age to integer
     age = int(age)
 #if and elif statments for diffrent ages, will print diffrent messages for diffrent ages
     if age < 3:
