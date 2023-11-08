@@ -1,7 +1,7 @@
-# Initial list of sandwich orders
+# Initial list of sandwich orders plus the pastrami Sandwich
 sandwich_orders = ["Cheese Sandwich", "Falafel Sandwich", "Pastrami Sandwich", "Chicken Sandwich", "Steak Sandwich", "Pastrami Sandwich", "Jam Sandwich", "Pastrami Sandwich"]
 
-# Ensure the 'Pastrami Sandwich' appears at least three times
+# This section checks if 'Pastrami' appears in the sandwich_orders list at least three 
 while sandwich_orders.count('Pastrami Sandwich') >= 3:
     print("Sorry, the deli has run out of Pastrami Sandwich.")
     while 'Pastrami Sandwich' in sandwich_orders:
@@ -12,7 +12,8 @@ finished_sandwiches = []
 
 # Loop through the sandwich orders
 while sandwich_orders:
-    current_sandwich = sandwich_orders.pop(0)
+    current_sandwich = sandwich_orders.pop(0)#pop(0) removes sandwich from list 
+    #if sandwich is not pastrami it prints that sandwich has been made and adds it to finished_sandwich list 
     if current_sandwich != 'Pastrami Sandwich':
         print(f"I made your {current_sandwich}.")
         finished_sandwiches.append(current_sandwich)
