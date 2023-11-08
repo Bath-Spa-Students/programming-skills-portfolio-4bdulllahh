@@ -2,7 +2,7 @@
 while True:
     age = input("Please enter your age (or 'leave' to exit): ")
 #if user types 'leave' the loop will end
-#
+#the .lower 
     if age.lower() == 'leave':
         print("Thank you for using the ticket service. See yaaa!")
         break
