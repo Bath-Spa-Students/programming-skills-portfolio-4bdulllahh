@@ -4,6 +4,7 @@ sandwich_orders = ["Cheese Sandwich", "Falafel Sandwich", "Pastrami Sandwich", "
 # This section checks if 'Pastrami' appears in the sandwich_orders list at least three 
 while sandwich_orders.count('Pastrami Sandwich') >= 3:
     print("Sorry, the deli has run out of Pastrami Sandwich.")
+    #enters a loop to remove all partrami sandwiches from the list 
     while 'Pastrami Sandwich' in sandwich_orders:
         sandwich_orders.remove('Pastrami Sandwich')
 
