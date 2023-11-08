@@ -14,4 +14,5 @@ while sandwich_orders:
 # Displaying the finished sandwiches
 print("\nList of sandwiches made:")
 for sandwich in finished_sandwiches:
-    print(sandwich)
+    print(sandwich) #prints the sandwiches in the 'finished_sandwich' list
+    
