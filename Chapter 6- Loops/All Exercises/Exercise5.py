@@ -1,5 +1,6 @@
 # Initial list of sandwich orders plus the pastrami Sandwich
-sandwich_orders = ["Cheese Sandwich", "Falafel Sandwich", "Pastrami Sandwich", "Chicken Sandwich", "Steak Sandwich", "Pastrami Sandwich", "Jam Sandwich", "Pastrami Sandwich"]
+sandwich_orders = ["Cheese Sandwich", "Falafel Sandwich", "Pastrami Sandwich", "Chicken Sandwich", "Steak Sandwich", 
+                   "Pastrami Sandwich", "Jam Sandwich", "Pastrami Sandwich", "Pizza Sandwich"]
 
 # This section checks if 'Pastrami' appears in the sandwich_orders list at least three 
 while sandwich_orders.count('Pastrami Sandwich') >= 3:
