@@ -1,5 +1,5 @@
 # List of sandwich orders
-sandwich_orders = ["Cheese Sandwich", "Falefel Sandwich", "Chicken Sandwich", "Steak Sandwich", "Jam Sandwich"]
+sandwich_orders = ["Cheese Sandwich", "Falefel Sandwich", "Chicken Sandwich", "Steak Sandwich", "Jam Sandwich", "Pizza Sandwich"]
 
 # Empty list to hold finished sandwiches
 finished_sandwiches = []
