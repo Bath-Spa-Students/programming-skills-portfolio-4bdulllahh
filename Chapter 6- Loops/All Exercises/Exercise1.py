@@ -8,4 +8,4 @@ while topping.lower() != 'quit':
 
 print("Your pizza is ready!")
 #the loop continues back until the user types in 'quit'
-#Enjoy your pizza :)
+#Enjoy your pizza :))
