@@ -2,7 +2,7 @@
 def describe_city(city,country):
   print(city,"is located in",country)
 #city and country 1
-# input command to take value from use 
+# input command to take value from user 
 a = str(input("Enter city: "))
 b = str(input("Enter the country it is located in: "))  
 describe_city(a,b)
