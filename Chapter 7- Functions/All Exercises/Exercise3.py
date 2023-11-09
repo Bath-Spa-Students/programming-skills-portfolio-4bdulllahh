@@ -4,4 +4,5 @@ def make_shirt(size,message):
 #ask user thier shirt size and what they want on thier shirt
 shirtsize = str(input("Enter your shirt size (S,M,L,XL,XXL): "))##S,M,L
 txt = str(input("Enter the message you want to print on the shirt: "))
+#prints message with size and message 
 make_shirt(shirtsize,txt)
