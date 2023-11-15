@@ -20,6 +20,7 @@ user_input = int(input("Enter a positive integer: "))
 
 # Verify if the input is a positive integer
 if user_input < 0:
+    #ask user for input
     print("Please enter a positive integer.")
 else:
     result_factorial = calculate_factorial(user_input)
