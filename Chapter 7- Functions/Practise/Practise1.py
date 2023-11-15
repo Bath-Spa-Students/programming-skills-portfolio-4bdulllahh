@@ -13,7 +13,7 @@ def calculate_sum(x, y):
 
 # Example usage
 input_num1 = float(input("Enter the first number: "))#ask user for input1 
-input_num2 = float(input("Enter the second number: "))
+input_num2 = float(input("Enter the second number: "))#asl user for input2
 
 result_sum = calculate_sum(input_num1, input_num2)
 print(f"The sum of {input_num1} and {input_num2} is: {result_sum}")
