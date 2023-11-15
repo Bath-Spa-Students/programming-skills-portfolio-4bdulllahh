@@ -25,3 +25,4 @@ if check_prime(user_input):
     print(f"{user_input} is a prime number.")
 else:
     print(f"{user_input} is not a prime number.")
+#prints output
