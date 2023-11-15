@@ -9,7 +9,7 @@ def calculate_sum(x, y):
     Returns:
     The sum of x and y
     """
-    return x + y
+    return x + y #add x and y 
 
 # Example usage
 input_num1 = float(input("Enter the first number: "))#ask user for input1 
