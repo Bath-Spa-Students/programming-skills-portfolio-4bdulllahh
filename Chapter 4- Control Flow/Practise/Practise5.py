@@ -18,5 +18,6 @@ if month in valid_months:
 
     # Displaying the result
     print(f"The season for {month.capitalize()} is {season}.")
+    #.capitalize so it writes month name in caps
 else:
     print("Please check the spelling :).")
