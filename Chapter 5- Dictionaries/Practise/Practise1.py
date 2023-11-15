@@ -3,8 +3,8 @@ myself_info = {
     "name": "Abdullah",
     "age": 18,
     "gender": "Male",
-    "occupation": "Software Developer",
-    "location": "City, Country",
+    "occupation": "Student",
+    "location": "United Arab Emirates, Umm al Qwain",
     "hobbies": ["reading", "coding", "traveling"],
     "favorite_color": "Blue",
 }
