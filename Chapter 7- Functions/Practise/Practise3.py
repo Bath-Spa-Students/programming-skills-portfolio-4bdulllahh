@@ -1,6 +1,6 @@
 def check_prime(number):
     """
-    Function to determine if a given number is a prime.
+    Function to determine if a given number is a prime number.
 
     Parameters:
     - number: Integer to be assessed
