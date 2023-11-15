@@ -1,5 +1,5 @@
 # Creating a dictionary
-myself_info = {
+info = {
     "name": "Abdullah",
     "age": 18,
     "gender": "Male",
@@ -11,5 +11,5 @@ myself_info = {
 
 # Iterating through both keys and values and printing them
 print("Keys and values of the dictionary:")
-for key, value in myself_info.items():
+for key, value in info.items():
     print(f"{key}: {value}")
