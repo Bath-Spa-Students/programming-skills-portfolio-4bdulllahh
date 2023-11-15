@@ -1,5 +1,5 @@
 # Creating a dictionary
-info = {
+ = {
     "name": "Abdullah",
     "age": 18,
     "gender": "Male",
