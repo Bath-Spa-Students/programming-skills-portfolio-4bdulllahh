@@ -9,7 +9,7 @@ if month in valid_months:
     # Using elif statements to determine the season based on the month
     if month in ["december", "january", "february"]: #months that come under winter
         season = "Winter" #sets season variable to winter
-    elif month in ["march", "april", "may"]:
+    elif month in ["march", "april", "may"]: #months that come under spring
         season = "Spring" #sets season variable to spring
     elif month in ["june", "july", "august"]:
         season = "Summer" #sets season variable to summer
