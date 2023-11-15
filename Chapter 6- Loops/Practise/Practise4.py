@@ -8,5 +8,5 @@ for number in range(1, 11):
         #will break the loop
         break
 
-# This code will continue here after the loop is exited
+#code will continue here after the loop is exited
 print("Loop finished.")
