@@ -8,7 +8,7 @@ def check_prime(number):
     Returns:
     True if the number is prime, False otherwise
     """
-    if number <= 1:
+    if number <= 1: #check if number 0 or no 
         return False  # Numbers less than or equal to 1 are not considered prime
 
     for i in range(2, int(number**0.5) + 1):
