@@ -2,7 +2,7 @@
 myself_info = {
     "name": "Abdullah",
     "age": 18,
-    "gender": "Female",
+    "gender": "Male",
     "occupation": "Software Developer",
     "location": "City, Country",
     "hobbies": ["reading", "coding", "traveling"],
