@@ -10,7 +10,7 @@ def compute_circle_area(radius):
     Returns:
     Calculated area of the circle
     """
-    area = math.pi * radius**2 #
+    area = math.pi * radius**2 #formula for area of circle
     return area
 
 # Example usage
