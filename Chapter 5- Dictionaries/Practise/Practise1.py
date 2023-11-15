@@ -5,7 +5,7 @@ myself_info = {
     "gender": "Male",
     "occupation": "Student",
     "location": "United Arab Emirates, Umm al Qwain",
-    "hobbies": ["reading", "coding", "traveling"],
+    "hobbies": ["Cars", "Gaming", "Sleeping"],
     "favorite_color": "Blue",
 }
 
