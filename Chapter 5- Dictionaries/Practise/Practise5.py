@@ -1,6 +1,6 @@
 # Two dictionaries to merge
 dict1 = {"name": "Abdullah", "age": 18, "city": "Umm al Qwain"}
-dict2 = {"occupation": "student", "hobbies": ["reading", "coding"]}
+dict2 = {"occupation": "student", "hobbies": ["Cars", "coding"]}
 
 # Merging dictionaries using update() method
 merged_dict = dict1.copy()  # Create a copy of dict1 to avoid modifying it directly
