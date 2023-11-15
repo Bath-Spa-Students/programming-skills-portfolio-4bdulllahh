@@ -17,7 +17,7 @@ def compute_circle_area(radius):
 def main():
     user_radius = float(input("Enter the radius of the circle: "))#ask user for radius
 
-    if user_radius >= 0:
+    if user_radius >= 0: #checks if radius is valid
         area_result = compute_circle_area(user_radius)
         print(f"The area of the circle with radius {user_radius} is: {area_result:.2f}")
     else:
