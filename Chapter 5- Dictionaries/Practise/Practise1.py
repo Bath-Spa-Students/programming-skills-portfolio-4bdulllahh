@@ -1,7 +1,7 @@
 # Creating a dictionary to store information about yourself
 myself_info = {
     "name": "Abdullah",
-    "age": 25,
+    "age": 18,
     "gender": "Female",
     "occupation": "Software Developer",
     "location": "City, Country",
