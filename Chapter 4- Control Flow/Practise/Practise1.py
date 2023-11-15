@@ -1,6 +1,5 @@
-# Assuming there is a variable named x
-x = 120  # You can replace this value with the desired value
-
+x = int(input("Enter a value for x from 10 to 190: "))
+#take input from user
 # Using an if statement to check if x is greater than 100
 if x > 100:
     y = 20
