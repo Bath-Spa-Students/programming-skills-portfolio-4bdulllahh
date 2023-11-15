@@ -6,7 +6,7 @@ myself_info = {
     "occupation": "Student",
     "location": "United Arab Emirates, Umm al Qwain",
     "hobbies": ["Cars", "Gaming", "Sleeping"],
-    "favorite_color": "Blue",
+    "favorite_color": "Red",
 }
 
 # Accessing and printing information from the dictionary
