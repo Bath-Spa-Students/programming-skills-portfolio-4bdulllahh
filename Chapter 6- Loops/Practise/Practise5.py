@@ -6,7 +6,7 @@ while True:#creates infinite loop
     user_input = input("Enter a number (enter '0' to exit): ") #enter 0 to end loop
 
     # Check if the user wants to exit
-    if user_input == '0':
+    if user_input == '0':#breaks code if user write 0
         break
 
     # Convert the user input to a float
