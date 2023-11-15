@@ -1,5 +1,5 @@
 # Two dictionaries to merge
-dict1 = {"name": "Abdullah", "age": 18, "city": "New York"}
+dict1 = {"name": "Abdullah", "age": 18, "city": "Umm al Qwain"}
 dict2 = {"occupation": "Engineer", "hobbies": ["reading", "coding"]}
 
 # Merging dictionaries using update() method
