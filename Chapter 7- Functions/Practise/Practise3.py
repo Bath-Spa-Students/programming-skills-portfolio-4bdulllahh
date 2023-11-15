@@ -18,7 +18,7 @@ def check_prime(number):
     return True  # If no divisors are found, the number is considered prime
 
 # Example usage
-user_input = int(input("Enter a number to determine if it's prime: "))
+user_input = int(input("Enter a number to determine if it's prime: ")) #ask user for input
 
 if check_prime(user_input):
     print(f"{user_input} is a prime number.")
