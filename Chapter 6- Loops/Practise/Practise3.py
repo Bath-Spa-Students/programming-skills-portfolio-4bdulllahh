@@ -2,7 +2,7 @@
 sum_numbers = 0
 
 # Using a for loop to find the sum of numbers from 1 to 100
-for number in range(1, 101):
+for number in range(1, 101):#takes numbers from 1 to 100
     sum_numbers += number
 
 # Printing the sum
