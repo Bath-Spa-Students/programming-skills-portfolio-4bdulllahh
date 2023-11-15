@@ -1,5 +1,5 @@
 # Taking user input for-- a
-a = int(input("Enter a value for a: "))
+a = (input("Enter a value for a from 1 to 19: "))
 
 # Using an if-else statement to check if a is less than 10
 if a < 10:
