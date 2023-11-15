@@ -14,7 +14,7 @@ if month in valid_months:
     elif month in ["june", "july", "august"]:
         season = "Summer" #sets season variable to summer
     elif month in ["september", "october", "november"]:
-        season = "Fall"
+        season = "Fall" #sets season variable to fall
 
     # Displaying the result
     print(f"The season for {month.capitalize()} is {season}.")
