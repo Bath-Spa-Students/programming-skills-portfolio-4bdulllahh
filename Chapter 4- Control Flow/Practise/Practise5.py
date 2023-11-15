@@ -7,7 +7,7 @@ month = input("Enter the month (e.g., January, February, etc.): ").lower()  # Co
 # Checking if the input month is in the list of valid months
 if month in valid_months:
     # Using elif statements to determine the season based on the month
-    if month in ["december", "january", "february"]:
+    if month in ["december", "january", "february"]: #months that come under winter
         season = "Winter" #sets season variable to winter
     elif month in ["march", "april", "may"]:
         season = "Spring" #sets season variable to spring
