@@ -11,7 +11,7 @@ def check_prime(number):
     if number <= 1: #check if number 0 or no 
         return False  # Numbers less than or equal to 1 are not considered prime
 
-    for i in range(2, int(number**0.5) + 1):
+    for i in range(2, int(number**0.5) + 1): #creates range 
         if number % i == 0:
             return False  # If the number is divisible by any number in the given range, it's not prime
 
