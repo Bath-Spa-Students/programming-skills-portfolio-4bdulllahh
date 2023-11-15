@@ -1,12 +1,12 @@
 # Creating a dictionary
-myself_info = {
-    "name": "Your Name",
-    "age": 25,
-    "gender": "Female",
-    "occupation": "Software Developer",
-    "location": "City, Country",
-    "hobbies": ["reading", "coding", "traveling"],
-    "favorite_color": "Blue",
+info = {
+    "name": "Abdullah",
+    "age": 18,
+    "gender": "Male",
+    "occupation": "Student",
+    "location": "United Arab Emirates, Umm al Qwain",
+    "hobbies": ["Cars", "Gaming", "Sleeping"],
+    "favorite_color": "Red",
 }
 
 # Iterating through the values and printing them
