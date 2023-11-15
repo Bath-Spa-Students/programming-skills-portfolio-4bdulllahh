@@ -19,8 +19,8 @@ def check_prime(number):
 
 # Example usage
 user_input = int(input("Enter a number to determine if it's prime: ")) #ask user for input
-
+#if else statment to print if number is prime or not 
 if check_prime(user_input):
-    print(f"{user_input} is a prime number.")
+    print(f"{user_input} is a prime number.") 
 else:
     print(f"{user_input} is not a prime number.")
