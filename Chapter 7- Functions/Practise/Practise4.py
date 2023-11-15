@@ -25,3 +25,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+#could write this code in an easier way but o
