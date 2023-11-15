@@ -19,4 +19,4 @@ if month in valid_months:
     # Displaying the result
     print(f"The season for {month.capitalize()} is {season}.")
 else:
-    print("Invalid month spelling. Please enter a valid month.")
+    print("Please check the spelling :).")
