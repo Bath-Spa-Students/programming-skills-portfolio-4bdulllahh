@@ -1,4 +1,4 @@
-x = int(input("Enter a value for x from 10 to 190: "))
+x = float(input("Enter a value for x from 10 to 190: "))
 #take input from user
 # Using an if statement to check if x is greater than 100
 if x > 100:
