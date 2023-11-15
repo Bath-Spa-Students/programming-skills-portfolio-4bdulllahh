@@ -12,7 +12,7 @@ if month in valid_months:
     elif month in ["march", "april", "may"]:
         season = "Spring" #sets season variable to spring
     elif month in ["june", "july", "august"]:
-        season = "Summer"
+        season = "Summer" #sets season variable to summer
     elif month in ["september", "october", "november"]:
         season = "Fall"
 
