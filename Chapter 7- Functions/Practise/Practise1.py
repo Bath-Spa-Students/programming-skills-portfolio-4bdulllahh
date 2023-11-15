@@ -12,7 +12,7 @@ def calculate_sum(x, y):
     return x + y
 
 # Example usage
-input_num1 = float(input("Enter the first number: "))
+input_num1 = float(input("Enter the first number: "))#ask user for input1 
 input_num2 = float(input("Enter the second number: "))
 
 result_sum = calculate_sum(input_num1, input_num2)
