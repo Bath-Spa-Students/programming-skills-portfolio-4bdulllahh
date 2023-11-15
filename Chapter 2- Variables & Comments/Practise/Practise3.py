@@ -1,13 +1,13 @@
 # Take input from the user five times
-input_values = []
+input = []
 for i in range(5):
     value = input(f"Enter value {i + 1}: ")
-    input_values.append(value)
+    input.append(value)
 
 # Typecast to string, int, and float
-string_variable = str(input_values[0])
-int_variable = int(input_values[1])
-float_variable = float(input_values[2])
+string_variable = str(input[0])
+int_variable = int(input[1])
+float_variable = float(input[2])
 
 # Print the variables
 print("\nVariables:")
