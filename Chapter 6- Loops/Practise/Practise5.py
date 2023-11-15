@@ -3,7 +3,7 @@ largest_number = float('-inf')  # Start with a very small value
 #largest_number variable ensures the first number entered will be considered largest 
 while True:#creates infinite loop
     # Take user input
-    user_input = input("Enter a number (enter '0' to exit): ") 
+    user_input = input("Enter a number (enter '0' to exit): ") #enter 0 to end loop
 
     # Check if the user wants to exit
     if user_input == '0':
