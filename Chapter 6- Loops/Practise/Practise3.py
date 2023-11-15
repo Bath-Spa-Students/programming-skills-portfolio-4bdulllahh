@@ -7,3 +7,4 @@ for number in range(1, 101):#takes numbers from 1 to 100
 
 # Printing the sum
 print("Sum of numbers from 1 to 100:", sum_numbers)
+#will print the sum of all numbers from 1 to 100 
