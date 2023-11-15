@@ -1,5 +1,5 @@
 # Creating a dictionary
- = {
+myself_info = {
     "name": "Abdullah",
     "age": 18,
     "gender": "Male",
