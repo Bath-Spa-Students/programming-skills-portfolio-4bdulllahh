@@ -1,5 +1,6 @@
 # List of valid months
-valid_months = ["january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"]
+valid_months = ["january", "february", "march", "april", "may", "june", "july", "august", "september",
+ "october", "november", "december"]
 
 # Taking user input for the month
 month = input("Enter the month (e.g., January, February, etc.): ").lower()  # Convert input to lowercase for case-insensitivity
