@@ -17,4 +17,4 @@ while True:#creates infinite loop
         largest_number = number
 
 # Print the largest number when the loop exits
-print("The largest number entered is:", largest_number)
+print("The largest number entered here is:", largest_number)
